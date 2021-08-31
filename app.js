@@ -7,7 +7,7 @@ var outputDiv= document.querySelector("#output");
 function clickHandler(){
     outputDiv.innerText = "jsjsjsjsjsjsjsj" + txtInput.value;
 }
-btnTranslate.addEventListener("click", clickHandler)
+btnTranslate.addEventListener("click" , clickHandler)
 
 // 1.document.querySelector("textarea");
 // 2.btn-primary
